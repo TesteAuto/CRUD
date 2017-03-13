@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Aplicatie Web</title>
+</head>
+<body  ng-controller = "ExempluController">
+	<p>{{controllerTest}}</p>
+	<p ng-repeat="x in controllerTest2">{{x.id}} {{x.col1}}</p>
+	<p ng-repeat="y in controllerTest3">{{y.id}} {{y.col1}}</p>
+	<exemplu-directive></exemplu-directive>
+	<div>
+		<ul>
+			<li>
+				<a ui-sref="pagina1">Pagina1</a>
+			</li>
+			<li>
+				<a ui-sref="pagina2">Pagina2</a>
+			</li>
+		</ul>
+	</div>
+	<div>
+		<div ui-view></div>
+	</div>
+	<script src="continut.js"></script>
+</body>
+</html>

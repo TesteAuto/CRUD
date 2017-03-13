@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Aplicatie Web</title>
+</head>
+<body  ng-controller = "ExempluController">
+	<p>{{controllerTest}}</p>
+	<exemplu-directive></exemplu-directive>
+	<div>
+		<ul>
+			<li>
+				<a ui-sref="pagina1">Pagina1</a>
+			</li>
+			<li>
+				<a ui-sref="pagina2">Pagina2</a>
+			</li>
+		</ul>
+	</div>
+	<div>
+		<div ui-view></div>
+	</div>
+	<script src="continut.js"></script>
+</body>
+</html>

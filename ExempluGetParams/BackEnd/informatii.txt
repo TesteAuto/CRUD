@@ -1,0 +1,2 @@
+http://localhost/ExempluGetParam/BackEnd/fisiere/test.php
+localhost/ExempluGetParam/FrontEnd/mapa/index.html
